@@ -1,0 +1,3 @@
+npm run typeorm migration:create -- -d src\typeorm.config.ts src/migrations/NAME
+npm run typeorm migration:generate -- -d src\typeorm.config.ts src/migrations/NAME
+npm run typeorm migration:run -- -d src\typeorm.config.ts
